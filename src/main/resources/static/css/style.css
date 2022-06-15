@@ -1,0 +1,118 @@
+body{
+	background : #e2e2e2 !important;
+}
+
+.bg-primary{
+	background: #009688 !important;
+}
+
+.banner{
+	background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)) , url(../img/smart_contact_manager_home.jpg) #212a32f7;
+	background-size: contain;
+	width: 100%;
+	background-repeat: no-repeat;
+	height: 93vh;
+	color : white;
+	
+}
+.profile_pic{
+	width: 35px;
+	height: 35px;
+	object-fit: cover;
+	border-radius: 50%;
+	/* border: 1px solid black; */
+}
+#login-body {
+  margin: 0;
+  padding: 0;
+  background-color: e2e2e2;
+  height: 100vh;
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 90px;
+  max-width: 600px;
+ min-height: 400px;
+  border: 1px solid #9C9C9C;
+  background-color: white;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+.mycard{
+	background: #ffffff;
+	padding : 20px;
+}
+.search-result{
+	position : absolute;
+	background: white;
+	width: 100%;
+	padding: 10px;
+	border : 1px solid grey;
+	display : none;
+}
+
+.search-container{
+	position : relative;
+	
+}
+
+@media only screen and (max-width: 600px){
+	.sidebar{
+		display: none;
+		width: 80% !important;
+		background : white;
+		height : 100vh;
+		position : fixed;
+		padding-top : 20px;
+	}
+	.content{
+		margin-left: 0% !important;
+	}
+}
+
+.crossBtn{
+	top : 0;
+	left : 0;
+	font-size: 30px;
+	position: absolute;
+	cursor: pointer;
+	color: white;
+}
+
+.sidebar{
+	width : 18%;
+	background:white;
+	height: 100%;
+	position: fixed;
+	padding-top: 45px;
+	z-index: 2;
+}
+
+.sidebar a{
+	display: block;
+	width :100%;
+	padding:10px 25px;
+	text-decoration: none;
+	color:grey;	
+}
+
+.sidebar a:hover{	
+	color: black;
+	background : #e2e2e2;
+}
+
+.sidebar .divider{
+	height :2px;
+	width : 100%;
+	background: #e2e2e2;
+	margin-top : 10px;
+}
+
+.content{
+	margin-left: 20%;
+}
